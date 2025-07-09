@@ -1,0 +1,176 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Photography Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+    <!-- font awesome -->
+     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css" integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+     <!-- google fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400..700&family=Josefin+Sans:ital,wght@0,100..700;1,100..700&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Oswald:wght@200..700&family=Quicksand:wght@300..700&display=swap" rel="stylesheet">
+    <!-- animate.css -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"/>
+    <!-- AOS animate -->
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+</head>
+<body>
+    <!-- the main container -->
+    <main id="container">
+        <!-- Navigation bar -->
+        <nav>
+            <!-- logo -->
+            <img src="./assets/logo.png" alt="logo" class="logo">
+            <!-- links -->
+             <ul>
+                <li class="list-items"><a class="links" href="#home">HOME</a></li>
+                <li class="list-items"><a class="links" href="#about">ABOUT</a></li>
+                <li class="list-items"><a class="links" href="#skills">SKILLS</a></li>
+                <li class="list-items"><a class="links" href="#contact">CONTACT</a></li>
+             </ul>
+        </nav>
+        <!-- Home page -->
+        <section id="home">
+            <!-- content on the left side of the home page -->
+            <div class="home-content">
+                <h1 class="animate__animated animate__fadeInLeft" id="username">I'm Maria <span class="last-name">Joe</span></h1>
+                <p class="user-details">This is my official portfolio website to showcase<br>my journey and work in photography</p>
+                <a class="download" href="./assets/Photography-Brochure-24-onwards.pdf" download>VIEW BROCHURE</a>
+            </div>
+            <!-- images on the right side of the home page -->
+            <div class="home-img">
+                <!-- blob -->
+                 <img src="./assets/blob.png" alt="blob" class="group1" id="blob">
+                 <!-- girl -->
+                 <img src="./assets/profile.png" alt="gir image" id="girl" class="group1">
+            </div>
+        </section>
+        <!-- About section -->
+        <section id="about">
+            <div class="section-head">
+                <h2 class="main-head">About Me</h2>
+                <span class="sub-head">Introduction</span>
+            </div>
+            <div class="section-body">
+                <div class="about-img">
+                    <img data-aos="fade-right" src="./assets/girl-img2-removebg-preview.png" alt="" class="img1">
+                </div>
+                <div class="about-content">
+                    <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Aliquid, praesentium maiores placeat a, autem error quaerat voluptates quisquam dolorum, excepturi deleniti fugiat? Ipsam assumenda excepturi, et beatae voluptatibus dolores. Blanditiis.</p>
+                    <div class="information">
+                        <div class="info">
+                            <i class="fa-solid fa-user"></i>
+                            <span>Maria Joe</span>
+                        </div>
+                        <div class="info">
+                            <i class="fa-solid fa-phone"></i>
+                            <span>944644XXXX</span>
+                        </div>
+                        <div class="info">
+                            <i class="fa-solid fa-envelope"></i>
+                            <span>mariajoe@gmail.com</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- skill section -->
+        <section id="skills">
+            <div class="section-head">
+                <h2 class="main-head">Skills</h2>
+                <span class="sub-head">My skills</span>
+            </div>
+            <div class="skill-content">
+                <div class="skill-progress-bars">
+                    <!-- bar 1 -->
+                    <div class="bars">
+                        <h3 class="bar-head">Potraits</h3>
+                        <span class="bar-percent">92%</span>
+                        <div class="progressbar background"></div>
+                        <div data-aos="fade-right"
+                        data-aos-offset="300"
+                        data-aos-easing="ease-in-sine" class="progressbar" id="progress1"></div>
+                    </div>
+                    <!-- bar 2 -->
+                    <div class="bars">
+                        <h3 class="bar-head">Landscape</h3>
+                        <span class="bar-percent">80%</span>
+                        <div class="progressbar background"></div>
+                        <div data-aos="fade-right"
+                        data-aos-offset="300"
+                        data-aos-easing="ease-in-sine" class="progressbar" id="progress2"></div>
+                    </div>
+                    <!-- bar 3 -->
+                     <div class="bars">
+                        <h3 class="bar-head">Editing</h3>
+                        <span class="bar-percent">88%</span>
+                        <div class="progressbar background"></div>
+                        <div data-aos="fade-right"
+                        data-aos-offset="300"
+                        data-aos-easing="ease-in-sine" class="progressbar"id="progress3"></div>
+                    </div>
+                    <!-- bar 3 -->
+                     <div class="bars">
+                        <h3 class="bar-head">wildlife</h3>
+                        <span class="bar-percent">78%</span>
+                        <div class="progressbar background"></div>
+                        <div data-aos="fade-right"
+                        data-aos-offset="300"
+                        data-aos-easing="ease-in-sine" class="progressbar progress" id="progress4"></div>
+                    </div>
+                </div>
+                <div class="skill-image">
+                    <img data-aos="fade-left" src="./assets/skill-img1.gif" alt="studio" class="skillimage">
+                </div>
+            </div>
+        </section>
+        <!-- contact section -->
+        <section id="contact">
+            <div class="section-head">
+                <h2 class="main-head">Contacts</h2>
+                <span class="sub-head">My contact</span>
+            </div>
+            <!-- contact icons  -->
+            <div class="contact-icons">
+                <!-- linkedln -->
+                <div class="icons">
+                    <a href="www.linkedin.com/in/aparnarajesh2003" target="_blank"><i class="fa-brands fa-linkedin brands"></i></a>
+                </div>
+                <!-- github -->
+                <div class="icons">
+                    <a href="https://github.com/aparna2003-github" target="_blank"><i class="fa-brands fa-github brands"></i></a>
+                </div>
+                <!-- whatsapp -->
+                <div class="icons">
+                    <a href="www.linkedin.com/in/aparnarajesh2003" target="_blank"><i class="fa-brands fa-whatsapp brands"></i></a>
+                </div>
+                <!-- instagram -->
+                <div class="icons">
+                    <a href="https://github.com/aparna2003-github" target="_blank"><i class="fa-brands fa-instagram brands"></i></a>
+                </div>
+                <!-- mail id -->
+                <div class="icons">
+                    <a href="aparnarajesh4005@gmail.com" target="_blank"><i class="fa-solid fa-envelope brands"></i></a>
+                </div>
+            </div>
+        </section>
+        <footer>
+            <p class="copyright">&copy; Maria Joe Photography Portfolio- June 2024, &reg; All Rights Reserved</p>
+            <!-- up arrow -->
+            <div class="icons up-arrow">
+                <a href="#container"><i class="fa-solid fa-angle-up brands"></i></a>
+            </div>
+        </footer>
+    </main>
+    
+</body>
+
+<!-- AOS script -->
+<script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+<script>
+    AOS.init();
+</script>
+
+</html>
